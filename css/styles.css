@@ -216,7 +216,7 @@ img {
     grid-template-columns:  repeat(2, 1fr);
     gap: 2rem;
 }
-.formulario__campo{
+.formulario__campos{
     /*
     border-color: var(--primarioOscuro);
     border-width: 1rem;
@@ -228,7 +228,11 @@ img {
     color: var(--blanco);
     font-size: 2rem;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
     appearance: none; /* quitar la flecha del combo box */
+}
+.formulario__campo {
+    color: var(--negro);
 }
 .formulario__submit{
     background-color: var(--secundario);
