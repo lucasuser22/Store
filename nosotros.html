@@ -1,40 +1,101 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FrontEnd Store</title>
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="<link rel=" preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="<link rel=" preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&family=Staatliches&display=swap" rel="stylesheet">">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&family=Staatliches&display=swap"
+        rel="stylesheet">">
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
 
     <!-- esta vez trabajaremos con BEM -->
     <header class="header"> <!-- bloque -->
         <a href="index.html"> <!-- al darle click al logo me lleva a la pagina principal -->
             <!--elemento: -->
-            <img class="header__logo" src="img/logo.png" alt="Logotipo"> <!-- cuando no carga la imagen aparece lo que esta en el alt -->
+            <img class="header__logo" src="img/logo.png" alt="Logotipo">
+            <!-- cuando no carga la imagen aparece lo que esta en el alt -->
         </a>
     </header>
 
     <nav class="navegacion">
-        <a class="navegacion__enlace"  href="index.html">Tienda</a> <!-- modificador -->
+        <a class="navegacion__enlace" href="index.html">Tienda</a> <!-- modificador -->
         <a class="navegacion__enlace navegacion__enlace--activo" href="nosotros.html">Nosotros</a>
     </nav>
 
     <main class="contenedor">
         <h1>Nosotros</h1>
+
+        <div class="nosotros">
+            <div class="nosotros__contenido">
+                <p>
+                    Donec sit amet lacus purus. Ut condimentum augue a orci auctor porttitor. Morbi at scelerisque
+                    felis.
+                    Duis libero orci, tincidunt non lacus vel, egestas convallis mi. Donec elementum ultricies mollis.
+                    Praesent rhoncus est a lacus porttitor sagittis. Aenean porta imperdiet volutpat. In hac habitasse
+                    platea dictumst. Curabitur sed laoreet magna.
+
+                </p>
+                <p>
+                    Duis consequat lacinia rhoncus. Mauris ut velit vitae ipsum dapibus dictum.
+                    Maecenas pharetra magna a scelerisque consequat. Cras feugiat, sem eu viverra faucibus, sem tortor
+                    dictum mauris, eleifend finibus mauris neque sit amet enim. Suspendisse suscipit justo vel iaculis
+                    pellentesque.
+                </p>
+
+            </div>
+            <img class="nosotros__imagen" src="img/nosotros.jpg" alt="imagen nosotros">
+        </div>
     </main>
+
+
+    <section class="contenedor comprar">
+        <h2 class="comprar__titulo">¿Por qué comprar con nosotros?</h2>
+
+        <div class="bloques">
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_1.png" alt="porque comprar">
+                <h3 class="bloque__titulo">El mejor precio</h3>
+                <p> Maecenas pharetra magna a scelerisque consequat. Cras feugiat, sem eu viverra faucibus, sem tortor
+                    dictum mauris, eleifend finibus mauris neque sit amet enim.</p>
+            </div> <!-- bloque -->
+
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_2.png" alt="porque comprar">
+                <h3 class="bloque__titulo">Para Devs</h3>
+                <p> Maecenas pharetra magna a scelerisque consequat. Cras feugiat, sem eu viverra faucibus, sem tortor
+                    dictum mauris, eleifend finibus mauris neque sit amet enim.</p>
+            </div> <!-- bloque -->
+
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_3.png" alt="porque comprar">
+                <h3 class="bloque__titulo">Envío Gratis</h3>
+                <p> Maecenas pharetra magna a scelerisque consequat. Cras feugiat, sem eu viverra faucibus, sem tortor
+                    dictum mauris, eleifend finibus mauris neque sit amet enim.</p>
+            </div> <!-- bloque -->
+
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_4.png" alt="porque comprar">
+                <h3 class="bloque__titulo">La mejor calidad</h3>
+                <p> Maecenas pharetra magna a scelerisque consequat. Cras feugiat, sem eu viverra faucibus, sem tortor
+                    dictum mauris, eleifend finibus mauris neque sit amet enim.</p>
+            </div> <!-- bloque -->
+        </div> <!-- bloques -->
+    </section>
 
 
     <footer class="footer">
         <p class="footer__texto">Front End Store - Todos los derechos reservados 2023.</p>
     </footer>
-    
+
 </body>
+
 </html>
