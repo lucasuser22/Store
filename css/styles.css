@@ -73,7 +73,6 @@ img {
     background-color: var(--primarioOscuro);
     padding: 1rem 0;
     margin-top: 2rem;
-    width: 100%;
 }
 .footer__texto {
     font-family: var(--fuentePrincipal);
@@ -216,9 +215,8 @@ img {
 }
 .formulario{
     display: grid;
-    grid-template-columns:  repeat(2, 1fr);
+    grid-template-columns: repeat(2, 47%);
     gap: 2rem;
-    width: 100%
 }
 .formulario__campos{
     /*
@@ -235,6 +233,7 @@ img {
     padding: 1rem;
     appearance: none; /* quitar la flecha del combo box */
 }
+
 .formulario__campo {
     color: var(--negro);
 }
