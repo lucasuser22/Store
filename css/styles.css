@@ -73,6 +73,7 @@ img {
     background-color: var(--primarioOscuro);
     padding: 1rem 0;
     margin-top: 2rem;
+    width: 100%;
 }
 .footer__texto {
     font-family: var(--fuentePrincipal);
@@ -217,6 +218,7 @@ img {
     display: grid;
     grid-template-columns:  repeat(2, 1fr);
     gap: 2rem;
+    width: 100%
 }
 .formulario__campos{
     /*
